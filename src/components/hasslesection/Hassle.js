@@ -1,9 +1,9 @@
 import React from "react";
 
-function Hassle() {
+function Hassle(props) {
   return (
     <div>
-      <h1>sectisasaon2</h1>
+      <h1>hassle</h1>
     </div>
   );
 }

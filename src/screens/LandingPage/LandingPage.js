@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Hassle from "../../components/hasslesection/Hassle";
-function LandingPage() {
+function LandingPage(props) {
   return (
     <div>
       <Navbar />
-      <Hassle />
+      <Hassle data={props.data1} />
     </div>
   );
 }

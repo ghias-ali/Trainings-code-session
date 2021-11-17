@@ -1,9 +1,9 @@
 import "./App.css";
-import LandingPage from "./screens/LandingPage/LandingPage";
+import AppRouter from "./routes/routes";
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      <AppRouter />
     </div>
   );
 }
